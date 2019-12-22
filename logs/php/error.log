@@ -1,0 +1,13 @@
+[22-Dec-2019 21:20:58 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /Users/kevin/Local Sites/fictional-university/app/public/wp-settings.php on line 24
+[22-Dec-2019 21:20:58 UTC] PHP Stack trace:
+[22-Dec-2019 21:20:58 UTC] PHP   1. {main}() /Users/kevin/Local Sites/fictional-university/app/public/wp-settings.php:0
+[22-Dec-2019 21:20:58 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /Users/kevin/Local Sites/fictional-university/app/public/wp-settings.php on line 24
+[22-Dec-2019 21:20:58 UTC] PHP Stack trace:
+[22-Dec-2019 21:20:58 UTC] PHP   1. {main}() /Users/kevin/Local Sites/fictional-university/app/public/wp-settings.php:0
+[22-Dec-2019 21:20:58 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/kevin/Local Sites/fictional-university/app/public/wp-settings.php on line 24
+[22-Dec-2019 21:20:58 UTC] PHP Stack trace:
+[22-Dec-2019 21:20:58 UTC] PHP   1. {main}() /Users/kevin/Local Sites/fictional-university/app/public/wp-settings.php:0
+[22-Dec-2019 21:21:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/kevin/Local Sites/fictional-university/app/public/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/kevin/Local Sites/fictional-university/app/public/wp-content/themes/twentytwenty/index.php on line 17
